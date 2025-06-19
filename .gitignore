@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# GitHub Actions secrets
+/android/key.properties
+/android/app/upload-keystore.jks
+/ios/ExportOptions.plist
+*.p12
+*.mobileprovision
+*.keychain
