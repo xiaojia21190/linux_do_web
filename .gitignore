@@ -51,3 +51,4 @@ app.*.map.json
 *.p12
 *.mobileprovision
 *.keychain
+*.keystore
