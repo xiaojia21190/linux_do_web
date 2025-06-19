@@ -113,21 +113,6 @@ return const WebsiteConfig(
 - **加载进度**: 页面加载时会显示进度条
 - **状态同步**: 导航按钮会根据实际状态启用/禁用
 
-## 开发
-
-### 添加新功能
-1. 在相应的目录下创建新文件
-2. 使用 Riverpod 进行状态管理
-3. 使用 Hooks 简化组件逻辑
-4. 使用 Freezed 创建不可变数据模型
-
-### 代码生成
-当修改了使用 `@freezed` 或 `@riverpod` 注解的文件后，需要重新运行代码生成：
-
-```bash
-dart run build_runner build --delete-conflicting-outputs
-```
-
 ## 许可证
 
 本项目使用 MIT 许可证。
